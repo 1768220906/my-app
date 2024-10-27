@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --base-font-color-default: #333;
+  --base-font-color-higher: #666;
+  --base-font-color-highest: #999;
+}

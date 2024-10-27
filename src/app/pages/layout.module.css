@@ -1,0 +1,40 @@
+.title {
+  width: 100vw;
+  height: 50px;
+  background: #2564cf;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+.content {
+  display: flex;
+}
+
+.content .menu {
+  width: 290px;
+  padding: 16px;
+}
+
+.content .menu ul {
+  list-style-type: none;
+}
+
+.content .menu ul a li {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.content .menu ul a {
+  text-decoration: none;
+  color: #333;
+}
+
+.active {
+  font-weight: bold;
+  background: #eff6fc;
+  border-left: 2px solid #2564cf;
+}
+
+.container {
+  padding: 16px;
+}
