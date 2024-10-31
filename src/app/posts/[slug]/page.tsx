@@ -1,8 +1,9 @@
 // app/posts/[slug]/page.tsx
 const page = async ({ params }: { params: { slug: string } }) => {
-  console.log(params, 'params')
+  const paramsRes = await params
 
-  const { slug } = await params
+  console.log(paramsRes, 'paramsRes')
+  const slug = paramsRes.slug
 
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${slug}`)
   const post = await res.json()
